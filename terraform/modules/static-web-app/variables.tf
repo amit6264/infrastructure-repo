@@ -1,0 +1,26 @@
+variable "name" {
+  type = string
+}
+
+variable "resource_group_name" {
+  type = string
+}
+
+variable "location" {
+  type = string
+}
+
+variable "sku_tier" {
+  type    = string
+  default = "Standard"
+}
+
+variable "sku_size" {
+  type    = string
+  default = "Standard"
+}
+
+variable "environment" {
+  type    = string
+  default = "prod"
+}
